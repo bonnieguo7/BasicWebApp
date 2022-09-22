@@ -26,5 +26,5 @@ jobs:
       - uses: akhileshns/heroku-deploy@v3.12.12
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: "bonnie.guo7"
+          heroku_app_name: "bonnie-guo"
           heroku_email: "bmguo@andrew.cmu.edu"
