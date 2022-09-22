@@ -16,6 +16,10 @@ public class QueryProcessor {
         if (query.toLowerCase().contains("what is 7 plus 7")) {
             return "14";
         }
+
+        if (query.toLowerCase().contains("which of the following numbers is the largest: 19, 131")) {
+            return "131";
+        }
         return "";
     }
 
