@@ -10,4 +10,11 @@ public class QueryProcessor {
         }
         return "";
     }
+
+    public String process(String query) {
+        if (query.toLowerCase().contains("what is your name")) {
+            return "bonnie";
+        }
+        return "";
+    }
 }
